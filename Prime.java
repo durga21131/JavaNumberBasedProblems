@@ -1,10 +1,12 @@
 import java.util.Scanner;
 
 public class Prime {
-
+      /*
+	   A prime number is a natural number greater than 1 that has no divisors other than 1 and itself.
+		 In other words, a prime number can only be divided evenly by 1 and itself.
+		 Examples of Prime Numbers: 2, 3, 5, 7, 11, 13, 17, 19, etc. 
+	  */
 	public static void main(String[] args) {
-		/* A prime number is a natural number greater than 1 that has no divisors other than 1 and itself.
-		 In other words, a prime number can only be divided evenly by 1 and itself. */
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a number to check whether it is a prime or not");
 		int input = sc.nextInt();
