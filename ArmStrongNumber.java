@@ -24,6 +24,7 @@ public class ArmStrongNumber {
         int NumberOfDigits=0;
         int ArmStrong=0;
         int Dup=Number;
+        // int digits = String.valueOf(number).length(); // Count number of digits
         while(Number>0) {
         	NumberOfDigits++;
         	Number/=10;
