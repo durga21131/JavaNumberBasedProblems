@@ -3,6 +3,12 @@ package NumberProblems;
 import java.util.Scanner;
 
 public class PerfectNumber {
+	/*
+	A perfect number is a positive integer equal to the sum of its proper divisors, excluding itself. 
+	For example:
+	         6: Divisors are 1, 2, and 3; 1 + 2 + 3 = 6.
+             28: Divisors are 1, 2, 4, 7, and 14; 1 + 2 + 4 + 7 + 14 = 28.
+	*/
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
