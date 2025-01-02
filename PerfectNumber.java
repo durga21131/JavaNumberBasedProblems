@@ -8,6 +8,7 @@ public class PerfectNumber {
 	For example:
 	         6: Divisors are 1, 2, and 3; 1 + 2 + 3 = 6.
              28: Divisors are 1, 2, 4, 7, and 14; 1 + 2 + 4 + 7 + 14 = 28.
+	The first four perfect numbers are 6, 28, 496, and 8128.
 	*/
 
 	public static void main(String[] args) {
