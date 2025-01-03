@@ -3,8 +3,9 @@ package NumberProblems;
 import java.util.Scanner;
 
 public class PrimeNumberLimit {
+    // Printing prime Numbers between two Numbers
 
-   
+    // Method to check if a number is prime
     boolean isPrime(int number) {
         if (number <= 1) {
             return false; // Numbers less than or equal to 1 are not prime
