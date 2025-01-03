@@ -14,7 +14,7 @@ public class PrimeNumberLimit {
                 return false; // Number is divisible by i, hence not prime
             }
         }
-        return true; // Number is prime
+        return true; 
     }
 
     public static void main(String[] args) {
