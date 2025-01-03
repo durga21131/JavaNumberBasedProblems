@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class PrimeNumberLimit {
 
-    // Method to check if a number is prime
+   
     boolean isPrime(int number) {
         if (number <= 1) {
             return false; // Numbers less than or equal to 1 are not prime
@@ -14,7 +14,7 @@ public class PrimeNumberLimit {
                 return false; // Number is divisible by i, hence not prime
             }
         }
-        return true; 
+        return true; // Number is prime
     }
 
     public static void main(String[] args) {
