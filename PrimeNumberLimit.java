@@ -12,7 +12,7 @@ public class PrimeNumberLimit {
         }
         for (int i = 2; i <= Math.sqrt(number); i++) {
             if (number % i == 0) {
-                return false; // Number is divisible by i, hence not prime
+                return false; // Number is divisible by i(any number except 1 and itself), hence not prime
             }
         }
         return true; // Number is prime
