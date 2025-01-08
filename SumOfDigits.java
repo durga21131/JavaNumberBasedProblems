@@ -10,6 +10,7 @@ public class SumOfDigits {
 		long Number = sc.nextLong();
 		long Duplicate=Number;
 		int SOD = 0;
+		//checking number of digits
 		while (Number > 0) {
 			long remainder = Number % 10;
 			SOD+=remainder;
