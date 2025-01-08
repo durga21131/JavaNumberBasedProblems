@@ -19,6 +19,7 @@ public class Pallindrome {
         	int remainder=Number%10;
         	ReverseNumber=ReverseNumber*10+remainder;
         	Number/=10;
+		// checking pallindrome or not
         }if(Duplicate==ReverseNumber) {
         	System.out.println(Duplicate+" is a pallindrome number");
         }else {
