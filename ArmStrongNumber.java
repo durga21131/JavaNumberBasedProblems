@@ -22,7 +22,7 @@ public class ArmStrongNumber {
         int Duplicate=Number;
         int NumberOfDigits=0;
         int ArmStrong=0;
-        int Dup=Number;
+        int Dup = Number;
         // int digits = String.valueOf(number).length(); // Count number of digits
         while(Number > 0) {
         	NumberOfDigits++;
@@ -33,9 +33,10 @@ public class ArmStrongNumber {
         	ArmStrong+=Math.pow(Remainder,NumberOfDigits);
         	Duplicate/=10;
         }
-        if(ArmStrong==Dup) {
+        if(ArmStrong == Dup) {
         	System.out.println(Dup+ " is a Armstrong number");
-        }else {
+        }
+        else {
         	System.out.println(Dup+ " is not a Armstrong number");
         }
 	}
