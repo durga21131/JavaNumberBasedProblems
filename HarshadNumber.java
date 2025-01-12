@@ -17,13 +17,14 @@ public class HarshadNumber {
 		int Number=sc.nextInt();
 		int Duplicate=Number;
 		int SOD=0;
-		while(Number>0) {
+		while(Number > 0) {
 			int remainder=Number%10;
 			SOD+=remainder;
 			Number/=10;
-		}if(Duplicate%SOD==0) {
+		}if(Duplicate % SOD == 0) {
 			System.out.println(Duplicate+" is a Harshad Number");
-		}else {
+		}
+		else {
 			System.out.println(Duplicate+" is not Harshad Number");
 		}
 	}
