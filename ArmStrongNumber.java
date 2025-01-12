@@ -15,8 +15,7 @@ public class ArmStrongNumber {
         153 = 1*1*1+5*5*5+3*3*3 = 1+125+27 =153
         here number of digits is 3 (1,5,3) and individual digits are 1,5,3.
     */
-
-	public static void main(String[] args) {
+  public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter a Number");
         int Number=sc.nextInt();
@@ -25,11 +24,11 @@ public class ArmStrongNumber {
         int ArmStrong=0;
         int Dup=Number;
         // int digits = String.valueOf(number).length(); // Count number of digits
-        while(Number>0) {
+        while(Number > 0) {
         	NumberOfDigits++;
         	Number/=10;
         }
-        while(Duplicate>0) {
+        while(Duplicate > 0) {
         	int Remainder=Duplicate%10;
         	ArmStrong+=Math.pow(Remainder,NumberOfDigits);
         	Duplicate/=10;
