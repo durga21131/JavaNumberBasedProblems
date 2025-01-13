@@ -30,8 +30,8 @@ public class ArmStrongNumber {
         }
         while(Duplicate > 0) {
         	int Remainder=Duplicate%10;
-        	ArmStrong+=Math.pow(Remainder,NumberOfDigits);
-        	Duplicate/=10;
+        	ArmStrong += Math.pow(Remainder,NumberOfDigits);
+        	Duplicate /= 10;
         }
         if(ArmStrong == Dup) {
         	System.out.println(Dup+ " is a Armstrong number");
