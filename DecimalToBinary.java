@@ -7,12 +7,12 @@ public class DecimalToBinary {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a decimal number");
-        int Number=sc.nextInt();
-        int Duplicate=Number;
+        int Number = sc.nextInt();
+        int Duplicate = Number;
         int arr[] = new int[32];
         int i=0;
         while(Number > 0) {
-        	arr[i]=Number%2;
+        	arr[i] = Number%2;
         	i++;
         	Number /= 2;
         }
