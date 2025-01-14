@@ -11,12 +11,12 @@ public class BinarytoDecimal {
 		String StrBinary = sc.next();
 		int DecimalValue = 0;
 		// Convert StrBinary to Decimal value
-		for(int i=0;i<StrBinary.length();i++) {
+		for(int i=0; i < StrBinary.length(); i++) {
 			char bit = StrBinary.charAt(StrBinary.length()-1-i); // accessing rightmost element 
-			if(bit=='1') {
-				DecimalValue+=Math.pow(2,i);
+			if(bit == '1') {
+				DecimalValue += Math.pow(2,i);
 			}
-			else if(bit!='0') {
+			else if(bit != '0') {
 				System.out.println("Invalid Number");
 				return;
 			}
