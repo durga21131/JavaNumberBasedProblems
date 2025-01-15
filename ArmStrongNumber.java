@@ -18,10 +18,10 @@ public class ArmStrongNumber {
   public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter a Number");
-        int Number=sc.nextInt();
-        int Duplicate=Number;
-        int NumberOfDigits=0;
-        int ArmStrong=0;
+        int Number = sc.nextInt();
+        int Duplicate = Number;
+        int NumberOfDigits = 0;
+        int ArmStrong = 0;
         int Dup = Number;
         // int digits = String.valueOf(number).length(); // Count number of digits
         while(Number > 0) {
