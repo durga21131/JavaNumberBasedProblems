@@ -25,10 +25,10 @@ public class ArmStrongNumber {
         int Dup = Number;
         // int digits = String.valueOf(number).length(); // Count number of digits
         while(Number > 0) {
-        	NumberOfDigits++;
+        	NumberOfDigits ++;
         	Number /= 10;
         }
-        while(Duplicate > 0) {
+        while( Duplicate > 0) {
         	int Remainder = Duplicate%10;
         	ArmStrong += Math.pow(Remainder,NumberOfDigits);
         	Duplicate /= 10;
