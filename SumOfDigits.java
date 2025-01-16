@@ -8,7 +8,7 @@ public class SumOfDigits {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a number");
 		long Number = sc.nextLong();
-		long Duplicate=Number;
+		long Duplicate = Number;
 		int SOD = 0;
 		//checking number of digits
 		while (Number > 0) {
