@@ -47,4 +47,5 @@ public class Swapping {
 		System.out.println("the values after swapping is:");
 		System.out.println("a value is: " + a + "   b value is " + b);
 	}
+	sc.close();
 }
