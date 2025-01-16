@@ -39,6 +39,7 @@ public class ArmStrongNumber {
         else {
         	System.out.println(Dup+ " is not a Armstrong number");
         }
+        sc.close();
 	}
 
 }
