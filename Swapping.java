@@ -9,6 +9,7 @@ public class Swapping {
 		// s.WithOutUsing3Variable();
 		// s.WithOutUsing3Variable2();
 
+		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter first Value");
 		int a = sc.nextInt();
@@ -36,6 +37,7 @@ public class Swapping {
 		System.out.println("a value is: " + a + "   b value is " + b);
 	}
 
+
 	void WithOutUsing3Variable2() {
 		int a = 10;
 		int b = 15;
@@ -47,5 +49,6 @@ public class Swapping {
 		System.out.println("the values after swapping is:");
 		System.out.println("a value is: " + a + "   b value is " + b);
 	}
+
 	sc.close();
 }
