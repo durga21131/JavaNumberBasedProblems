@@ -1,6 +1,6 @@
 package NumberProblems;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Swapping {
 
@@ -29,7 +29,7 @@ public class Swapping {
 		int a = 10;
 		int b = 15;
 		System.out.println("the values before swapping is:");
-		System.out.println("a value is: " + a + "   b value is " + b);
+		System.out.println("a value is: " + a + "    b value is " + b);
 		a = a + b;
 		b = a - b;
 		a = a - b;
