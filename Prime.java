@@ -13,11 +13,7 @@ public class Prime {
 		// there is many ways to solve the solution u want choose best one w.r.t time
 		// and space complexities.
 		int FactorCount = 0;
-		for (int i = 2; i <= Math.sqrt(input); i++) {
-			if (input % i == 0) {
-				FactorCount++;
-				break;
-			}
+		
 		}
 		if (FactorCount >= 1) {
 			System.out.println(input + " is not a prime number");
