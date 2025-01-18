@@ -21,13 +21,7 @@ public class FactorialNumber {
         else if(Number == 0) {
         	System.out.println("Factorial for 0 is: 1");
         }
-		else {
-        	for(int i=1; i<=Number ;i++) {
-        		Factorial *= i;
-        	}
-        	System.out.println("Factorial of "+Number+" is: "+Factorial );
-        }
-		sc.close();
+		
 	}
 
 }
