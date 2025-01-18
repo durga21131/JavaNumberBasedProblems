@@ -20,11 +20,6 @@ public class Prime {
 			}
 		}
 		
-		if (FactorCount >= 1) {
-			System.out.println(input + " is not a prime number");
-		} else {
-			System.out.println(input + " is a prime number");
-		}
 	}
 
 }
