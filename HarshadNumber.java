@@ -22,12 +22,7 @@ public class HarshadNumber {
 			SOD += remainder;
 			Number /= 10;
 		}
-		if(Duplicate % SOD == 0) {
-			System.out.println(Duplicate+" is a Harshad Number");
-		}
-		else {
-			System.out.println(Duplicate+" is not Harshad Number");
-		}
+		
 		sc.close();
 	}
 
