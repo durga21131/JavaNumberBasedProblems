@@ -26,9 +26,9 @@ public class PerfectSquare {
 			System.out.println( "Perfect square is not possible for negative numbers");
 		}
 		else {
-		   for(int i=1;i<Number;i++) {
-			   if (i%2==1){
-				  OddSum+=i;
+		   for(int i = 1; i < Number; i++) {
+			   if ( i%2 == 1){
+				  OddSum += i;
 				  Square++;
 				  if(OddSum==Number) {
 					 break;
