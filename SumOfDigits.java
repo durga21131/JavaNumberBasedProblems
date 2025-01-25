@@ -12,7 +12,11 @@ public class SumOfDigits {
 		long Duplicate = Number;
 		int SOD = 0;
 		//checking number of digits
-		
+		while (Number > 0) {
+			long remainder = Number % 10;
+			SOD += remainder;
+			Number /= 10;
+		}
 		System.out.println("The sum of individual digits of "+Duplicate+" is: "+SOD);
 
 	}
