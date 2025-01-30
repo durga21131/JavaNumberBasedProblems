@@ -15,11 +15,7 @@ public class BinarytoDecimal {
 			char bit = StrBinary.charAt(StrBinary.length()-1-i); // accessing rightmost element 
 			if(bit == '1') {
 				DecimalValue += Math.pow(2,i);
-			}
-			else if(bit != '0') {
-				System.out.println("Invalid Number");
-				return;
-			}
+			
 		}System.out.println("The Binary decimal form of "+ StrBinary + " is "+DecimalValue);
 	}
 
