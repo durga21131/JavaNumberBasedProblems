@@ -20,7 +20,11 @@ public class Pallindrome {
         	ReverseNumber=ReverseNumber*10+remainder;
         	Number/=10;
 		// checking pallindrome or not
-        
+        }if(Duplicate==ReverseNumber) {
+        	System.out.println(Duplicate+" is a pallindrome number");
+        }else {
+        	System.out.println(Duplicate+" is not a pallindrome number");
+        }
 	}
 
 }
